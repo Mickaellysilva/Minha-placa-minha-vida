@@ -1,5 +1,4 @@
 import React from 'react';
-// Importações com as extensões que você confirmou
 import imgFormatacao from '../fotos/formatacao.jpg'; 
 import imgLimpeza from '../fotos/limpeza.jpg'; 
 import imgDiag from '../fotos/diagnostico.jpg'; 
@@ -50,7 +49,6 @@ export default function CardServicos() {
           ))}
         </div>
 
-        {/* Rodapé da seção com texto idêntico à imagem */}
         <div className="text-center mt-24">
           <p className="text-xl font-bold mb-8 leading-tight">
             Inicie agora nossa triagem inteligente e <br />
