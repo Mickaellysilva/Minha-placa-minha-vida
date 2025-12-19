@@ -24,5 +24,6 @@
 ​📋 Roadmap (Próximas Etapas)
 
 ​Como parte da evolução do projeto, as seguintes funcionalidades estão planejadas:
+
 ​* Página de Detalhes do Serviço: Criação de rotas dinâmicas para descrever serviços específicos (ex: Conserto de Placa), incluindo tempo médio de execução e escopo técnico.
 * ​Dashboard do Técnico: Área para visualização dos leads gerados via site.
