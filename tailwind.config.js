@@ -1,9 +1,8 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
-    "./*.{js,ts,jsx,tsx}",        // Isso olha os arquivos na raiz
-    "./home/**/*.{js,jsx}",      // Isso olha a pasta home
+    "./*.{js,ts,jsx,tsx}",        
+    "./home/**/*.{js,jsx}",      
     "./componentes/**/*.{js,jsx}",
     "./paginas/**/*.{js,jsx}",
   ],
