@@ -3,7 +3,6 @@ import { Clock, Lightbulb, HelpCircle, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Faqs() {
-  // Função para lidar com erro de imagem e não deixar o card vazio
   const handleImgError = (e) => {
     e.target.src = "https://via.placeholder.com/300x300/030a3d/ffffff?text=Imagem+nao+encontrada";
   };
@@ -12,7 +11,6 @@ export default function Faqs() {
     <div className="bg-linear-to-b from-[#051066] to-[#0a1a8b] text-white py-20 px-4 min-h-screen font-sans">
       <div className="container mx-auto max-w-6xl">
         
-        {/* 1. Título e Benefícios Superiores */}
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-20">Perguntas frequentes</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-32 text-center">
           <div className="flex flex-col items-center">
@@ -56,7 +54,6 @@ export default function Faqs() {
           </div>
         </div>
 
-        {/* 3. Seção: Quais os seus serviços? (Fotos Reais) */}
         <div className="pt-20 border-t border-white/10">
           <h2 className="text-4xl font-bold text-center mb-16">Quais os seus serviços?</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 max-w-5xl mx-auto px-4">
