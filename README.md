@@ -1,4 +1,5 @@
 ​🛠️ Minha Placa, Minha Vida - Assistência Técnica
+
 ​Sistema de triagem e conversão de leads para laboratórios de micro-soldagem e eletrônica, focado em reduzir a fricção entre o problema do cliente e o orçamento do técnico.  
 
 ​🎨 Design e UX
